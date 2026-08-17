@@ -1,5 +1,0 @@
-/* small neon tweaks */
-body { font-family: "Fira Code", monospace; }
-.card pre, #reportArea, #searchOut { max-height: 360px; overflow:auto; background:#020308; padding:8px; border-radius:6px; border:1px solid rgba(0,255,230,0.06);}
-input, button { outline: none; }
-
