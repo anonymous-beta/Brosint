@@ -2,81 +2,78 @@
   <img src="assets/logo.svg" width="420" alt="BROsint Logo">
 </p>
 
-# 🧠 BROsint
-**Advanced OSINT framework for phone, email, and social footprint reconnaissance — built for ethical cybersecurity research.**  
+## 🕵️ BROsint
+
+> **Advanced OSINT framework for phone, email, and social footprint reconnaissance — built for ethical cybersecurity research.**
+
 **Author:** Chinedu • **Version:** 1.0.0
 
-<p align="center">
-  <a href="https://github.com/umenyi-bryan/Brosint"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg">
-  <img src="https://img.shields.io/badge/status-active-success.svg">
-</p>
-<pre>
 ```
+
 ██████╗ ██████╗  ██████╗ ███████╗██╗███╗   ██╗████████╗
 ██╔══██╗██╔══██╗██╔════╝ ██╔════╝██║████╗  ██║╚══██╔══╝
-██████╔╝██████╔╝██║  ███╗█████╗  ██║██╔██╗ ██║   ██║   
-██╔═══╝ ██╔══██╗██║   ██║██╔══╝  ██║██║╚██╗██║   ██║   
-██║     ██║  ██║╚██████╔╝██║     ██║██║ ╚████║   ██║   
-╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═══╝   ╚═╝   
+██████╔╝██████╔╝██║  ███╗█████╗  ██║██╔██╗ ██║   ██║
+██╔═══╝ ██╔══██╗██║   ██║██╔══╝  ██║██║╚██╗██║   ██║
+██║     ██║  ██║╚██████╔╝██║     ██║██║ ╚████║   ██║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═══╝   ╚═╝
+
 ```
-<p align="center">
-  <b><span style="color:#ff00ff;">BROsint</span> — Advanced OSINT Framework by Chinedu</b><br>
-  <i>Cyber Intelligence • Data Correlation • Ethical Research</i>
-</p>
-</pre>
-# 🧠 BROsint
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Built%20with-Python-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
-> **BROsint** is a free, fully interactive OSINT (Open Source Intelligence) tool that empowers ethical investigators, researchers, and security enthusiasts to perform advanced intelligence collection.
-
-It can investigate emails, usernames, phone numbers, domains, and files with live results fetched directly from the internet.
-BROsint’s dynamic neon web dashboard gives you real-time results, AI-generated hypotheses, and supports Google dorking for deeper web discovery.
 ---
 
-### 🚀 Features
+## 📖 Overview
 
-Email, username, and phone lookup with real-time results
+**BROsint** is a free, fully interactive OSINT (Open Source Intelligence) tool that empowers ethical investigators, researchers, and security enthusiasts to perform advanced intelligence collection.
 
-Domain WHOIS and IP geolocation
+It can investigate emails, usernames, phone numbers, domains, and files with live results fetched directly from the internet. BROsint's dynamic neon web dashboard gives you real-time results, AI-generated hypotheses, and supports Google dorking for deeper web discovery.
 
-File metadata extraction (EXIF)
-
-AI-powered hypothesis generation and analysis
-
-Google dork support for deep web intelligence
-
-Interactive neon web interface with live search and results
-
-Professional neon ASCII design for a futuristic visual style
 ---
 
-### ⚙️ Installation
-```
+## ✨ Features
+
+| Category | Capabilities |
+|----------|--------------|
+| **Identity Intelligence** | Email, username, and phone lookup with real-time results |
+| **Domain Intelligence** | WHOIS lookup and IP geolocation |
+| **File Analysis** | EXIF metadata extraction from images and documents |
+| **AI-Powered Analysis** | Hypothesis generation and confidence scoring |
+| **Deep Web Discovery** | Google dork support for advanced intelligence gathering |
+| **Interactive Dashboard** | Neon‑styled web interface with live search and results |
+| **Visual Design** | Professional neon ASCII art for a futuristic aesthetic |
+
+---
+
+## ⚙️ Installation
+
+```bash
 # Clone the repository
-git clone https://github.com/umenyi-bryan/BROsint.git
-cd BROsint
+git clone https://github.com/anonymous-beta/Brosint.git
+cd Brosint
 
 # Create and activate a virtual environment
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Start the web interface
 python brosint.py --web
-
-Once running, access the dashboard at:
-👉 http://127.0.0.1:5000
 ```
+
+Once running, access the dashboard at: http://127.0.0.1:5000
+
 ---
 
-### 📚 Usage 
-⚙️ Example Commands
+## 🚀 Usage
 
+Command‑Line Examples
+
+```bash
 # Email intelligence
 python brosint.py --email example@mail.com
 
@@ -88,63 +85,52 @@ python brosint.py --domain example.com
 
 # Run with web interface
 python brosint.py --web
+```
 
-3. View live OSINT results including:
+## What You Get
 
-Email traces and patterns
+· Email traces and patterns
+· Domain and WHOIS data
+· File metadata (EXIF)
+· AI‑generated hypotheses and confidence levels
 
-Domain and WHOIS data
-
-File metadata (EXIF)
-
-AI-generated hypotheses and confidence levels
-
-
-
-4. Export or share results directly from the dashboard.
-
-NOTES
-
-BROsint uses only publicly available information — it does not access private databases or paid APIs.
-
-It is free and open-source, designed for learning, research, and ethical use.
-
-Built for Termux, Linux, and other Unix-like environments.
-
-The web interface features neon dynamic visuals with interactive elements powered by Flask.
+Results can be exported or shared directly from the dashboard.
 
 ---
-Contribution
+
+## 📝 Notes
+
+· BROsint uses only publicly available information — it does not access private databases or paid APIs
+· Completely free and open‑source — designed for learning, research, and ethical use
+· Built for Termux, Linux, and other Unix‑like environments
+· The web interface features neon dynamic visuals with interactive elements powered by Flask
+
+---
+
+## 🤝 Contributing
 
 BROsint welcomes community contributions!
 
-# Fork the repo
-git clone https://github.com/yourusername/BROsint.git
+1. Fork the repo
+2. Make your changes
+3. Commit: git commit -m "Add new feature"
+4. Push to your fork: git push origin main
+5. Open a pull request for review
 
-# Make your changes
-git add .
-git commit -m "Add new feature"
+Contributions can include:
 
-# Push to your fork
-git push origin main
-
-Then open a pull request for review.
-Contributions can include bug fixes, new OSINT modules, or UI improvements.
-
+· Bug fixes
+· New OSINT modules
+· UI improvements
 
 ---
 
-📜 License
+## 📄 License
 
 This project is licensed under the MIT License.
-Use responsibly — this software is intended for educational and ethical use only.
 
-> ⚠️ Misuse for illegal surveillance or privacy violations is strictly forbidden.
-
-
-
-© 2025 Chinedu. All Rights Reserved.
-
+⚠️ Use responsibly — this software is intended for educational and ethical use only. Misuse for illegal surveillance or privacy violations is strictly forbidden.
 
 ---
 
+© 2026 Chinedu. All Rights Reserved.
